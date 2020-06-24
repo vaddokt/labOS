@@ -44,6 +44,7 @@ md0 – physical volume for RAID;
 ![pg201](https://github.com/vaddokt/labOS/blob/master/lab2/images/pg201.png)
 Тем не менее, после перезагрузки ВМ все еще работает благодаря 2-ому диску. Проверяем статус RAID-массива.
 ![pg202](https://github.com/vaddokt/labOS/blob/master/lab2/images/pg202.png)
+
 На замену 1-ому диску добавим новый диск такого же размера. Назовем его ssd33 (в моем случае).
 ![pg203](https://github.com/vaddokt/labOS/blob/master/lab2/images/pg203.png)
 Новый диск был добавлен в систему. Теперь копируем таблицу разделов со старого на новый диск.
