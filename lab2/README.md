@@ -56,7 +56,7 @@ mdadm --manage /dev/md0 --add /dev/sdb2
 ![pg205](https://github.com/vaddokt/labOS/blob/master/lab2/images/pg205.png)
 Видим, что началась синхронизация. Далее вручную синхронизируем отделы, не входящие в RAID. Выполняем команду:
 ```
-dd if=/dev/sda1 of=/dev/sdb1.
+dd if=/dev/sda1 of=/dev/sdb1
 ```
 ![pg206](https://github.com/vaddokt/labOS/blob/master/lab2/images/pg206.png)
 После синхронизации устанавливаем GRUB на новый диск и перезагружаем систему, чтобы убедиться, что все работает.
