@@ -210,4 +210,5 @@ mount /dev/mapper/data-var_log /var/log
 Теперь перезагружаем систему и проверяем результат.
 ![pg324](https://github.com/vaddokt/labOS/blob/master/lab2/images/pg324.png)
 ![pg325](https://github.com/vaddokt/labOS/blob/master/lab2/images/pg325.png)
+
 В результате проведения лабораторной работы мы переместили данные системы со старых дисков на новые более вместительные диски.
